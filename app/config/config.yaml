@@ -1,0 +1,21 @@
+# config.yaml
+model:
+  name_api: "gpt-4o"
+  name_local: "gpt-oss:20b"
+  name_memory: "gpt-4o-mini"
+
+api:
+  openai_key: "YOUR API KEY"
+
+elasticsearch:
+  host: "http://elasticsearch:9200"
+  index: "raina_docs"
+
+prompt:
+  system_path: "./prompt/system_prompt.txt"
+  image_path: "./prompt/image_prompt.txt"
+  extract_path: "./prompt/extract_prompt.txt"
+
+limits:
+  max_context_blocks: 6
+  max_context_chars: 4000
