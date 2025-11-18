@@ -1,0 +1,11 @@
+elasticsearch==8.15.1
+pydantic
+requests
+chromadb
+ollama
+python-multipart
+Pillow
+pdf2image
+openai
+pysqlite3-binary
+
