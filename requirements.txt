@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+elasticsearch==8.15.1
+pydantic
+requests
+chromadb
+ollama
+python-multipart
+pysqlite3-binary
